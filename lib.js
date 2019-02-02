@@ -84,6 +84,6 @@ const chunkArray = (arr, chunksz) => {
     return ret;
 };
 
-const $ = document.querySelector;
+const $ = (selector) => document.querySelector(selector);
 
-const $$ = document.querySelectorAll;
+const $$ = (selector) => document.querySelectorAll(selector);
